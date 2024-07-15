@@ -1,16 +1,20 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Highlight from "./components/Highlight";
-import Hero from "./components/Hero";
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Cards from './components/Cards'
+import HowToUse from './components/HowToUse'
+import Footer from './components/Footer'
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Highlight />
-      <Hero />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Hero />
+            <Cards />
+            <HowToUse />
+            <Footer />
+        </>
+    )
 }
 
-export default App;
+export default App
